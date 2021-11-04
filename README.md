@@ -1,7 +1,7 @@
 # Sales Prediction - Rossmann
 ## Predicting sales to next six weeks
 
-[](https://www.cxtoday.com/wp-content/uploads/2021/06/Sales-Forecasting-1280x720.jpg)
+![](https://www.cxtoday.com/wp-content/uploads/2021/06/Sales-Forecasting-1280x720.jpg)
 
 Source: [CX Today](https://www.cxtoday.com/contact-centre/what-is-sales-forecasting/)
 
