@@ -11,7 +11,7 @@ Source: [CX Today](https://www.cxtoday.com/contact-centre/what-is-sales-forecast
 Rossmann operates over 3,000 drug stores in 7 European countries. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality.
 Rossmann's CFO requested a daily sales prediction for each store for the next six weeks in advance in order to elaborate a budget plan for the stores' infraestructure renovation. Our goal is to create a machine learning model capable to deliver accurate sales forecast as well as able to be easily access by the CFO through a Telegram bot.
 
-To accessa the dataset, click [here](https://www.kaggle.com/c/rossmann-store-sales).   
+To access the dataset, click [here](https://www.kaggle.com/c/rossmann-store-sales).   
 
 ## 2. Business Assumptions
 
@@ -29,9 +29,9 @@ The solution was based upon the following strategy:
 * **Step 5 - Data Preparation**: use techniques to better prepare the data to the machine learning model. 
 * **Step 6 - Feature Selection**: select the features that contain the main information and attributes requeried from the model to learn the the phenomenon's behaviour. 
 * **Step 7 - Machine Learning Modelling**: machine learning model training and performance comparasion. 
-* **Step 8 - Churn Analysis**: analyse the churn probability of TopBank's customers
-* **Step 9 - Bussiness Report and Financial Impact**: find out what is the financial impact if the model is implemented to avoid customer churn.
-* **Step 10 - Deploy**: deploy the model in production. 
+* **Step 8 - Hyperparameter Fine-Tunning**: tune the machine learning model's hyperparameters.
+* **Step 9 - Error interpretation and Bussiness Report**: find out what is the financial impact if the model is implemented to forecast the sales.
+* **Step 10 - Deployment**: deploy the model in production. 
 
 ## 4. Top 3 Data Insights
 
