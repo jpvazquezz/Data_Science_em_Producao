@@ -22,16 +22,16 @@ To accessa the dataset, click [here](https://www.kaggle.com/c/rossmann-store-sal
 ## 3. Solution Strategy
 The solution was based upon the following strategy:
 
-1. **Step 1 - Data Description**: use descriptive statistics to identify important or ususual behaviours in the data.
-2. **Step 2 - Feature Engeering**: create or derive new variables to help better understand the phenomenon or to improve model performance.
-3. **Step 3 - Feature Filtering**: filter the unnecessary variables and row in terms of information gain of that are outside the business' scope.
-4. **Step 4 - Exploratory Data Analysis**: explore the data to find insights, to comprehend the variables' behaviour and their consequent impact on the model's learning. 
-5. **Step 5 - Data Preparation**: use techniques to better prepare the data to the machine learning model. 
-6. **Step 6 - Feature Selection**: select the features that contain the main information and attributes requeried from the model to learn the the phenomenon's behaviour. 
-7. **Step 7 - Machine Learning Modelling**: machine learning model training and performance comparasion. 
-8. **Step 8 - Churn Analysis**: analyse the churn probability of TopBank's customers
-9. **Step 9 - Bussiness Report and Financial Impact**: find out what is the financial impact if the model is implemented to avoid customer churn.
-10. **Step 10 - Deploy**: deploy the model in production. 
+**Step 1 - Data Description**: use descriptive statistics to identify important or ususual behaviours in the data.
+**Step 2 - Feature Engeering**: create or derive new variables to help better understand the phenomenon or to improve model performance.
+**Step 3 - Feature Filtering**: filter the unnecessary variables and row in terms of information gain of that are outside the business' scope.
+**Step 4 - Exploratory Data Analysis**: explore the data to find insights, to comprehend the variables' behaviour and their consequent impact on the model's learning. 
+**Step 5 - Data Preparation**: use techniques to better prepare the data to the machine learning model. 
+**Step 6 - Feature Selection**: select the features that contain the main information and attributes requeried from the model to learn the the phenomenon's behaviour. 
+**Step 7 - Machine Learning Modelling**: machine learning model training and performance comparasion. 
+**Step 8 - Churn Analysis**: analyse the churn probability of TopBank's customers
+**Step 9 - Bussiness Report and Financial Impact**: find out what is the financial impact if the model is implemented to avoid customer churn.
+**Step 10 - Deploy**: deploy the model in production. 
 
 ## 4. Top 3 Data Insights
 
@@ -47,12 +47,49 @@ R: False, because stores should sell less throughout the years.
 
 R: False, because they actually sell less in the second semester of the year.
 
-## 5. Machine Learning Modelling Application
+## 5. Machine Learning Modelling 
 
+The following classification algorithms were tested:
+
+- Average Model
+- Linear Regression
+- Linear Regression - Lasso
+- XGBoost Regressor
+
+MAE, MAPE and RMSE were chosen as performance evalution metrics. The Random Forest Regressor was tested and had the best result between all the algorithms. However, this algorithm tends to require a large amount of memory space on the server in deployment, which might create a expressive cost to the company.
+
+|     Model Name     |       MAE        |       MAPE         |     RMSE     |   
+|--------------------|------------------|--------------------|--------------|
+|    Average Model   |    1354.800353   |      0.455051      |  1835.135542 | 
+|--------------------|------------------|--------------------|--------------|
+|  Linear Regression |    1867.616829   |      0.292633      |  2672.508806 | 
+|--------------------|------------------|--------------------|--------------|
+|       Lasso        |    1892.200337   |       0.289065     |  2745.442033 |  
+|--------------------|------------------|--------------------|--------------|
+|  XGBoost Regressor |    6684.076383   |      0.949586      | 7331.191587  | 
+|--------------------|------------------|--------------------|--------------|
+|  Random  Forest    |    679.614332    |      0.100005      | 1014.247337  | 
+|--------------------|------------------|--------------------|--------------|
 
 
 ## 6. Machine Learning Performance
+
+The XGBoost Regressor was the chosen model because, after the hyperparameter fine-tunning, it presented a very satisfying result, close to the Random Forest Regressor's one, but with less memory space requeritment. 
+
+
+|    Chosen Model    |       MAE        |       MAPE         |     RMSE     | 
+|--------------------|------------------|--------------------|--------------|
+|  XGBoost Regressor |    763.114913    |       0.1146       | 1095.543457  | 
+|--------------------|------------------|--------------------|--------------|
+
 ## 7. Business Results
+In the table below, it shows our XGBoost Regressor model's total performance in financial terms, after forecasting six weeks of sales.
+
+|      Prediction     |    Best Scenario    |    Worst Scenario    |
+|---------------------|---------------------|----------------------|
+|   $286,046,123.11   |   $286,900,060.10   |   $285,192,186.12    |
+ 
+
 ## 8. Conclusions
 ## 9. Lessons Learned
 ## 10. To Improve
