@@ -9,7 +9,7 @@ Source: [CX Today](https://www.cxtoday.com/contact-centre/what-is-sales-forecast
 ## 1. Business Problem
 
 Rossmann operates over 3,000 drug stores in 7 European countries. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality.
-Rossmann's CFO requested a daily sales prediction for each store for the next six weeks in advance in order to elaborate a budget plan for the stores' infraestructure renovation. Our goal is to create a machine learning model capable to deliver accurate sales forecast as well as able to be easily access by the CFO through a Telegram bot.
+Rossmann's CFO requested a daily sales prediction for each store for the next six weeks in order to elaborate a budget plan for the stores' infraestructure renovation. Our goal is to create a machine learning model capable of delivering accurate sales forecasting as well as able to be easily access by the CFO through a Telegram bot.
 
 To access the dataset, click [here](https://www.kaggle.com/c/rossmann-store-sales).   
 
