@@ -20,7 +20,7 @@ To access the dataset, click [here](https://www.kaggle.com/c/rossmann-store-sale
 * For stores that did not have the competition distance information available, it was adopted the longest distance registered in the dataset. 
 
 ## 3. Solution Strategy
-The solution was based upon the following strategy:
+The solution was built through the utilization of CRISP-DM approach andS was based upon the following strategy:
 
 * **Step 1 - Data Description**: use descriptive statistics to identify important or ususual behaviours in the data.
 * **Step 2 - Feature Engeering**: create or derive new variables to help better understand the phenomenon or to improve model performance.
