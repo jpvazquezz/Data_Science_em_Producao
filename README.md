@@ -58,13 +58,13 @@ The following classification algorithms were tested:
 
 MAE, MAPE and RMSE were chosen as performance evalution metrics. The Random Forest Regressor was tested and had the best result between all the algorithms. However, this algorithm tends to require a large amount of memory space on the server in deployment, which might create a expressive cost to the company.
 
-|     Model Name     |       MAE        |       MAPE         |     RMSE     |   
-|--------------------|------------------|--------------------|--------------|
-|    Average Model   |    1354.800353   |      0.455051      |  1835.135542 |
-|  Linear Regression |    1867.616829   |      0.292633      |  2672.508806 |
-|       Lasso        |    1892.200337   |       0.289065     |  2745.442033 |  
-|  XGBoost Regressor |    6684.076383   |      0.949586      | 7331.191587  |
-|  Random  Forest    |    679.614332    |      0.100005      | 1014.247337  |
+|     Model Name     |          MAE          |         MAPE         |        RMSE       |   
+|--------------------|-----------------------|----------------------|-------------------|
+|    Average Model   |      1354.800353      |      0.455051        |     1835.135542   |
+|  Linear Regression |    1858.85+/-584.62   |      0.29+/-0.05     |  2696.95+/-931.07 |
+|       Lasso        |     1864.83+/-616.8   |      0.28+/-0.04     |  2725.29+/-998.8  |  
+|  XGBoost Regressor |    6124.61+/-840.65   |      0.95+/-0.0      | 6689.09+/-1034.78 |
+|  Random  Forest    |    562.01+/-224.64    |      0.1+/-0.04      | 776.43+/-262.8    |
 
 
 ## 6. Machine Learning Performance
