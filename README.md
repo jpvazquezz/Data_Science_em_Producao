@@ -85,5 +85,28 @@ In the table below, it shows our XGBoost Regressor model's total performance in 
  
 
 ## 8. Conclusions
+
+By the end of this project, I created a XGBoost model that predicts the sales for the next six weeks. The sales forescating
+served as parameter to the budget designation for the stores' infraestructure renovation. The sales prediction per store can be easily access by Rossmann CFO through a Telegram bot
+
 ## 9. Lessons Learned
+
+* Exploratory Data Analysis importance
+* Bussiness orientated NAs imputation
+* Hyperparameter Fine-Tunning Random Search
+* Business report with different scenarios
+* Production deployment with Flask and Telegram bot
+
 ## 10. To Improve
+
+* Univariate Analysis
+* Notebook storytelling
+
+## About the author
+This project is powered by DS Community. DS Community is a data science hub designed to forge elite data scientists based on real bussiness solutions and practical projects. To know more about DS Community, click [here](https://www.comunidadedatascience.com/).
+
+To check out the app, click here.
+
+The solution was created by João Pedro Vazquez. Graduated as a political scientist, João Pedro is an aspiring data scientist, who seeks to improve his skills through projects with real bussiness purposes and through continuous and sharpened study. 
+
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/joao-pedro-vazquez/) [<img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>](jpvazquez01@gmail.com)
