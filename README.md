@@ -55,6 +55,7 @@ The following classification algorithms were tested:
 - Linear Regression
 - Linear Regression - Lasso
 - XGBoost Regressor
+- Random Forest Regressor
 
 MAE, MAPE and RMSE were chosen as performance evalution metrics. The Random Forest Regressor was tested and had the best result between all the algorithms. However, this algorithm tends to require a large amount of memory space on the server in deployment, which might create a expressive cost to the company.
 
@@ -104,8 +105,6 @@ served as parameter to the budget designation for the stores' infraestructure re
 
 ## About the author
 This project is powered by DS Community. DS Community is a data science hub designed to forge elite data scientists based on real bussiness solutions and practical projects. To know more about DS Community, click [here](https://www.comunidadedatascience.com/).
-
-To check out the app, click here.
 
 The solution was created by João Pedro Vazquez. Graduated as a political scientist, João Pedro is an aspiring data scientist, who seeks to improve his skills through projects with real bussiness purposes and through continuous and sharpened study. 
 
