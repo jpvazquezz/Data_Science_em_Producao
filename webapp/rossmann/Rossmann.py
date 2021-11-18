@@ -50,7 +50,7 @@ class Rossmann(object):
  
         df1['month_map'] = df1['date'].dt.month.map(month_map)
         
-        df1['is_promo'] = df1[['promo_interval', 'month_map']].apply( lambda x: 0 if x['promo_interval'] == 0 else 1 if x['month_map'] in x['promo_interval'].split( ',' ) else 0, axis=1 )
+        #df1['is_promo'] = df1[['promo_interval', 'month_map']].apply( lambda x: 0 if x['promo_interval'] == 0 else 1 if x['month_map'] in x['promo_interval'].split( ',' ) else 0, axis=1 )
 
         # De float para int
         df1.competition_open_since_month = df1.competition_open_since_month.astype(int)
