@@ -87,8 +87,7 @@ In the table below, it shows our XGBoost Regressor model's total performance in 
 
 ## 8. Conclusions
 
-By the end of this project, I created a XGBoost model that predicts the sales for the next six weeks. The sales forescating
-served as parameter to the budget designation for the stores' infraestructure renovation. The sales prediction per store can be easily access by Rossmann CFO through a Telegram bot
+By the end of this project, I created a XGBoost model that predicts the sales for the next six weeks. The sales forescating served as parameter to the budget designation for the stores' infraestructure renovation. The sales prediction per store can be easily access by Rossmann CFO through a Telegram bot. To access the Telegram bot, click [here](https://t.me/rossamann_salesprediction_bot).
 
 ## 9. Lessons Learned
 
