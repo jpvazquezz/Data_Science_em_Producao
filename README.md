@@ -22,7 +22,7 @@ To access the dataset, click [here](https://www.kaggle.com/c/rossmann-store-sale
 ## 3. Solution Strategy
 The solution was built through the utilization of CRISP-DM approach and was based upon the following strategy:
 
-* **Step 1 - Data Description**: use descriptive statistics to identify important or ususual behaviours in the data.
+* **Step 1 - Data Description**: use descriptive statistics to identify important or unusual behaviours in the data.
 * **Step 2 - Feature Engeering**: create or derive new variables to help better understand the phenomenon or to improve model performance.
 * **Step 3 - Feature Filtering**: filter the unnecessary variables and row in terms of information gain of that are outside the business' scope.
 * **Step 4 - Exploratory Data Analysis**: explore the data to find insights, to comprehend the variables' behaviour and their consequent impact on the model's learning. 
@@ -49,7 +49,7 @@ R: False, because they actually sell less in the second semester of the year.
 
 ## 5. Machine Learning Modelling 
 
-The following classification algorithms were tested:
+The following regression algorithms were tested:
 
 - Average Model
 - Linear Regression
